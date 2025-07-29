@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/style.css" />
+    <title>Register form</title>
+  </head>
+  <body>
+    <div class="box">
+        <form class="register-form" id="registerForm">
+          <h2>Ro'yxatdan o'tish</h2>
+          <label >
+            <input
+              type="text"
+              placeholder="Ismingizni kiriting"
+              id="regName"
+              name="name"
+              required
+            />
+          </label>
+          <label class="label">
+            <input
+              type="email"
+              placeholder="Email manzilini kiriting"
+              id="regEmail"
+              name="email"
+              required
+            />
+          </label>
+          <label class="label">
+            <input
+              type="password"
+              placeholder="Parolingizni kiriting"
+              id="regPassword"
+              name="password"
+              required
+            />
+          </label>
+          <label class="label">
+            <button class="btn" type="submit">Ro'yxatdan o'tish</button>
+          </label>
+        </form>
+    </div>
+    <script type="module" src="/src/register.ts"></script>
+  </body>
+</html>
